@@ -8,7 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="icon" href="img/favicon.png" type="image/png" />
-    <title>Contact | Recipe Maam</title>
+    <title>About us | Recipe Maam</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="vendors/linericon/style.css" />
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="vendors/lightbox/simpleLightbox.css" />
     <link rel="stylesheet" href="vendors/nice-select/css/nice-select.css" />
     <link rel="stylesheet" href="vendors/animate-css/animate.css" />
+    <link rel="stylesheet" href="vendors/jquery-ui/jquery-ui.css" />
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
@@ -56,10 +57,10 @@
                 <li class="nav-item">
                   <a class="nav-link" href="policy.html">Policy</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="about.html">About</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                   <a class="nav-link" href="contact.html">Contact</a>
                 </li>
               </ul>
@@ -98,10 +99,10 @@
           <div class="col-lg-5"></div>
           <div class="col-lg-7">
             <div class="banner_content text-center">
-              <h2>Contact Us</h2>
+              <h2>About Us</h2>
               <div class="page_link">
                 <a href="index.html">Home</a>
-                <a href="contact.html">Contact Us</a>
+                <a href="about.html">About Us</a>
               </div>
             </div>
           </div>
@@ -110,88 +111,68 @@
     </section>
     <!--================End Home Banner Area =================-->
 
-    <!--================Contact Area =================-->
-    <section class="contact_area p_120">
+    <!--================Blog Area =================-->
+    <section class="contact_area p_100">
       <div class="container">
         <div class="row">
-          <div class="col-lg-3">
-            <div class="contact_info">
-              <div class="info_item">
-                <i class="lnr lnr-home"></i>
-                <h6>Arizona, United States</h6>
-                <p>Santa monica bullevard</p>
-              </div>
-              <div class="info_item">
-                <i class="lnr lnr-phone-handset"></i>
-                <h6><a href="#">00 (440) 9865 562</a></h6>
-                <p>Mon to Fri 9am to 6 pm</p>
-              </div>
-              <div class="info_item">
-                <i class="lnr lnr-envelope"></i>
-                <h6><a href="#">contact@recipemaam.me</a></h6>
-                <p>Send us your query anytime!</p>
-              </div>
+          <div class="col-lg-4">
+            <img
+              class="author_img img-fluid rounded"
+              src="img/author.png"
+              alt="author_img"
+            />
+          </div>
+          <div class="col-lg-8 mt-5">
+            <div>
+              <a><h1 class="text-dark mb-4">About Me</h1></a>
+              <p>
+                My name is Emily Carey, and I am passionate about cooking. I
+                love trying new recipes and experimenting with different
+                ingredients. I also enjoy sharing my recipes with others.
+              </p>
+              <p>
+                I started this blog as a way to share my love of cooking with
+                others. I hope that my recipes will inspire others to get in the
+                kitchen and experiment with new recipes of their own.
+              </p>
+              <p>
+                I grew up in a family of great cooks, and I have always loved
+                spending time in the kitchen. I learned a lot from my family,
+                and I continue to learn new things every day.
+              </p>
+              <p>
+                I currently live in Arizona State, and I love to cook for my
+                friends and family. I hope that you will enjoy my recipes and
+                that they will inspire you to get in the kitchen and cook
+                something delicious!
+              </p>
             </div>
           </div>
-          <div class="col-lg-9">
-            <form
-              class="row contact_form"
-              action="contact_process.php"
-              method="post"
-              id="contactForm"
-              novalidate="novalidate"
-            >
-              <div class="col-md-6">
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="name"
-                    name="name"
-                    placeholder="Enter your name"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    id="email"
-                    name="email"
-                    placeholder="Enter email address"
-                  />
-                </div>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="subject"
-                    name="subject"
-                    placeholder="Enter Subject"
-                  />
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="form-group">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    id="message"
-                    rows="1"
-                    placeholder="Enter Message"
-                  ></textarea>
-                </div>
-              </div>
-              <div class="col-md-12 text-right">
-                <button type="submit" value="submit" class="btn submit_btn">
-                  Send Message
-                </button>
-              </div>
-            </form>
+        </div>
+        <div
+          class="mt-5 contact_info d-flex justify-content-between justify-content-lg-around flex-wrap"
+        >
+          <div class="info_item">
+            <i class="lnr lnr-home"></i>
+            <h6>Arizona, United States</h6>
+            <p>Santa monica bullevard</p>
+          </div>
+          <div class="info_item">
+            <i class="lnr lnr-phone-handset"></i>
+            <del>
+              <h6><a>00 (440) 9865 562</a></h6>
+              <p>Mon to Fri 9am to 6 pm</p>
+            </del>
+          </div>
+          <div class="info_item">
+            <i class="lnr lnr-envelope"></i>
+            <h6><a>contact@recipemaam.me</a></h6>
+            <p>Send us your query anytime!</p>
           </div>
         </div>
       </div>
     </section>
-    <!--================Contact Area =================-->
+    <!--================Blog Area =================-->
 
     <!--================ start footer Area  =================-->
     <footer class="footer-area p_120">
@@ -285,48 +266,6 @@
     </footer>
     <!--================ End footer Area  =================-->
 
-    <!--================Contact Success and Error message Area =================-->
-    <div id="success" class="modal modal-message fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="fa fa-close"></i>
-            </button>
-            <h2>Thank you</h2>
-            <p>Your message is successfully sent...</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Modals error -->
-
-    <div id="error" class="modal modal-message fade" role="dialog">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <i class="fa fa-close"></i>
-            </button>
-            <h2>Sended</h2>
-            <p>Thanking you for contacting us.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!--================End Contact Success and Error message Area =================-->
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="js/jquery-3.2.1.min.js"></script>
@@ -341,12 +280,6 @@
     <script src="vendors/jquery-ui/jquery-ui.js"></script>
     <script src="js/jquery.ajaxchimp.min.js"></script>
     <script src="js/mail-script.js"></script>
-    <!-- contact js -->
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="js/contact.js"></script>
-    <!--gmaps Js-->
     <script src="js/theme.js"></script>
   </body>
 </html>
